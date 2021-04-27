@@ -1,0 +1,14 @@
+.test div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.test div:nth-child(1){
+    background-color: $base-color;
+}
+.test div:nth-child(2){
+    background-color: lighten($base-color,30%);
+}
+.test div:nth-child(3){
+    background-color: lighten($base-color,30%);
+}

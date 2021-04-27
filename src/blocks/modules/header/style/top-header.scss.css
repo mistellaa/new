@@ -1,0 +1,29 @@
+.top-header{
+    background: #013056 url(../../../../img/Bg1-1.svg) no-repeat center;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.top-header p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.top-header p:first-of-type{
+    margin-right: 10px;
+}
+.icon-header{
+    display: flex;
+    align-items: center;
+}
+.icon .icon-header:first-child:after{
+    content: '';
+    width: 41px;
+    height: 25px;
+    background-position: -5px -45px;
+}
+.icon .icon-header:last-child:after{
+    content: '';
+    width: 51px;
+    height: 30px;
+    background-position: -5px -5px;
+}
